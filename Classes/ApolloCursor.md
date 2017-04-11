@@ -8,11 +8,6 @@ ApolloCursor
 ApolloCursors are the sprites that are used on the cursor in different
 situations.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`
@@ -31,7 +26,7 @@ Returns the ApolloCursor with the specified name.
 
 ### Return Value
 
--   **[ApolloCursor](../Classes/ApolloCursor.html)** - The cursor that
+-   **[ApolloCursor](../Classes/ApolloCursor.md)** - The cursor that
     was requested. If no cursor was found, this returns nil.
 
 ### Usage/Example
@@ -111,11 +106,6 @@ RecallInactive\
 Vendor\
 VendorInactive
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`
@@ -149,7 +139,7 @@ Creates a new ApolloCursor with no cursor set.
 
 ### Return Value
 
--   **[ApolloCursor](../Classes/ApolloCursor.html)** - A fresh, empty
+-   **[ApolloCursor](../Classes/ApolloCursor.md)** - A fresh, empty
     ApolloCursor.
 
 ------------------------------------------------------------------------

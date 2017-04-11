@@ -6,11 +6,6 @@ AlienFxLib
 Integration with Alienware's Alien FX library allowing lua to control
 hardware lights.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Enum`
@@ -98,7 +93,7 @@ What color is a certain light currently displaying.
 
 ### Return Value
 
--   **[CColor](../Classes/CColor.html)**
+-   **[CColor](../Classes/CColor.md)**
 
 ------------------------------------------------------------------------
 
@@ -196,7 +191,7 @@ SetLightColor(nDeviceIndex, nLightIndex, crLightColor)
 
 -   **nDeviceIndex** **(Integer)**
 -   **nLightIndex** **(Integer)**
--   **crLightColor** **([CColor](../Classes/CColor.html))**
+-   **crLightColor** **([CColor](../Classes/CColor.md))**
 
 ------------------------------------------------------------------------
 
@@ -215,4 +210,4 @@ Sets all lights for a location mask to a certain color.
     or more light positions in terms of the device's bounding box. There
     are 27 bits for each smaller cube within this bounding box, divided
     evenly.
--   **crLightColor** **([CColor](../Classes/CColor.html))**
+-   **crLightColor** **([CColor](../Classes/CColor.md))**

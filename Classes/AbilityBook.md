@@ -6,11 +6,6 @@ AbilityBook
 A library that contains a large number of functions that are centered
 around the Limited Action Set.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Enum`
@@ -192,7 +187,7 @@ Returns a table with information on each of the character's abilities.
             this tier of the spell.
         -   **strTierBonusDescription** **(String)** - The tier bonus
             that the player gets at this tier.
-        -   **splObject** **([Spell](../Classes/Spell.html))** - The
+        -   **splObject** **([Spell](../Classes/Spell.md))** - The
             spell for this tier.
         -   **nTierSpellId** **(Integer)** - The id number for the spell
             at this tier. This variable is only used for non-combat
@@ -265,7 +260,7 @@ Gives the UI information on a specific spell.
             this tier or not.
         -   **strTierBonusDescription** **(String)** - The description
             of the spell at this tier.
-        -   **splObject** **([Spell](../Classes/Spell.html))** - The
+        -   **splObject** **([Spell](../Classes/Spell.md))** - The
             spell at this tier.
         -   **nTierSpellId** **(Integer)** - The id number of the spell.
             This only exists for non - combat spells.

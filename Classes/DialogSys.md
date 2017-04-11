@@ -8,11 +8,6 @@ can be used for accepting and turning in quests and other conversations
 with NPCs. This library allows the player to get information on the
 currently displayed dialog.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`
@@ -52,7 +47,7 @@ Gets the unit associated with the dialog.
 
 ### Return Value
 
--   **[Unit](../Classes/Unit.html)** - The unit associated with the
+-   **[Unit](../Classes/Unit.md)** - The unit associated with the
     dialog.
 
 ------------------------------------------------------------------------
@@ -148,7 +143,7 @@ is using.
 
 ### Return Value
 
--   **[Quest](../Classes/Quest.html)** - The quest with the specified id.
+-   **[Quest](../Classes/Quest.md)** - The quest with the specified id.
     If the dialog was not showing a quest or was showing a quest with a
     different id, this will be nil.
 

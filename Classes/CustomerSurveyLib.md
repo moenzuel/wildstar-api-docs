@@ -6,11 +6,6 @@ CustomerSurveyLib
 A library that allows the player to interact with queued customer
 surveys.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Enum`
@@ -46,7 +41,7 @@ Gets a pending customer survey that the player has not filled out.
 
 ### Return Value
 
--   **[CustomerSurveyTypeLib](../Classes/CustomerSurveyTypeLib.html)** -
+-   **[CustomerSurveyTypeLib](../Classes/CustomerSurveyTypeLib.md)** -
     The pending survey.
 
 ------------------------------------------------------------------------

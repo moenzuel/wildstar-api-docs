@@ -1,90 +1,98 @@
-ICCommLib (Deprecated)
-======================
+ICCommLib
+=========
 
-Table of Content
----------------- 
+### Constants
 
-<!-- toc -->
+- knInvalidICCommMessageId
 
 ------------------------------------------------------------------------
 
 `Enum`
 
-ICCommJoinResult (Deprecated)
------------------------------
-
--   **NoGuild**
--   **BadName**
--   **Join**
--   **TooManyChannels**
--   **Left**
--   **NoGroup**
--   **MissingEntitlement**
-
-------------------------------------------------------------------------
-
-`Function`
-
-Is(userData) (Deprecated)
+CodeEnumICCommChannelType
 -------------------------
 
-### Description
+-   **Global** (**Integer**)
+-   **Group** (**Integer**)
+-   **Guild** (**Integer**)
 
-Does a lua\_pushboolean if the same metatable is on the stack.
+CodeEnumICCommJoinResult
+------------------------
 
-### Params
+-   **TooManyChannels** (**Integer**)
+-   **NoGuild** (**Integer**)
+-   **NoGroup** (**Integer**)
+-   **BadName** (**Integer**)
+-   **Join** (**Integer**)
+-   **Left** (**Integer**)
+-   **MissingEntitlement** (**Integer**)
 
--   **userData** **(UserData)**
+CodeEnumICCommMessageResult
+---------------------------
+
+-   **Sent** (**Integer**)
+-   **Throttled** (**Integer**)
+-   **NotInChannel** (**Integer**)
+-   **InvalidText** (**Integer**)
+-   **MissingEntitlement** (**Integer**)
 
 ------------------------------------------------------------------------
 
 `Function`
 
-JoinChannel(strChannel, strFunction, nLuaEventHandler) (Deprecated)
--------------------------------------------------------------------
+JoinChannel(strChannel, eChannelType, guildContext)
+---------------------------------------------------
 
 ### Description
 
-Runs JoinChannel with strChannel, strFunction, and nLuaEventHandler.
+Attempts to join a channel with then given name of the provided type. If the type is Guild then the guild userdata must also be passed in for context.
 
 ### Params
 
--   **strChannel** **(String)** - that gets prefixed with ICC.
--   **strFunction** **(String)**
--   **nLuaEventHandler** **(LuaTable)** - but the Id is immediately
-    converted to an Integer
+-   **strChannel** **(String)** - name of requested channel.
+-   **eChannelType** **(Integer)** - Type of channel to create, CodeEnumICCommChannelType.
+-   **guildContext** **([Guild](../Classes/Guild.md))** - guild context to be passed in when the channel type is Guild.
+
+### Return Value
+
+-   **[ICComm](../Classes/ICComm.md)** - An instance of the ICComm channel.
 
 ------------------------------------------------------------------------
 
-`Method`
+`Function`
 
-\_\_eq() (Deprecated)
----------------------
+GetUploadCapacityByType(eChannelType)
+-------------------------------------
 
-------------------------------------------------------------------------
+### Description
 
-`Method`
+Gets the bits/second upload capacity for given eChannelType or self context. A limit can be surpassed up to 50KB for the single message that surpasses the limit but it will take twice as long for the throttle to be removed.
 
-\_\_gc() (Deprecated)
----------------------
+### Params
 
-------------------------------------------------------------------------
+-   **eChannelType** **(Integer)** - Type of channel to create, CodeEnumICCommChannelType.
 
-`Method`
+### Return Value
 
-SendMessage() (Deprecated)
---------------------------
+-   **Integer** - Bits per second.
 
-------------------------------------------------------------------------
+-------------------------------------------------------------------
 
-`Method`
+`Function`
 
-SendPrivateMessage() (Deprecated)
----------------------------------
+GetDownloadCapacityByType(eChannelType)
+---------------------------------------
 
-------------------------------------------------------------------------
+### Description
 
-`Method`
+Gets the bits/second download capacity for given eChannelType or self context.
 
-SetControlFunction() (Deprecated)
----------------------------------
+### Params
+
+-   **eChannelType** **(Integer)** - Type of channel to create, CodeEnumICCommChannelType.
+
+### Return Value
+
+-   **Integer** - Bits per second.
+
+-------------------------------------------------------------------

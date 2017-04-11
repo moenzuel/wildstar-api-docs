@@ -7,11 +7,6 @@ This library is one of the primary ways that the player interacts with
 the CREDD Exchange. This does not include creating and fulfilling
 orders, which is handled by the ActionConfirmButton.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Enum`
@@ -94,7 +89,7 @@ Removes a CREDD Exchange Order from the Exchange.
 ### Params
 
 -   **crdOrder**
-    **([CREDDExchangeOrder](../Classes/CREDDExchangeOrder.html))** - The
+    **([CREDDExchangeOrder](../Classes/CREDDExchangeOrder.md))** - The
     order that the player wishes to cancel.
 
 ### Usage/Example

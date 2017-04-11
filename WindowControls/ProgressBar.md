@@ -1,12 +1,7 @@
 ProgressBar
 ===========
 
-### Parent: [Window](../WindowControls/Window.html)
-
-Table of Content
----------------- 
-
-<!-- toc -->
+### Parent: [Window](../WindowControls/Window.md)
 
 ------------------------------------------------------------------------
 
@@ -64,7 +59,7 @@ Sets the caller's bar color to clr.
 
 ### Params
 
--   **clr** **([CColor](../Classes/CColor.html))**
+-   **clr** **([CColor](../Classes/CColor.md))**
 
 ------------------------------------------------------------------------
 

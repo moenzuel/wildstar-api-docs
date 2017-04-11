@@ -6,11 +6,6 @@ CommunicatorLib
 A library that provides addons a way to manipulate communicator messages
 sent by NPCs.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Event`
@@ -35,7 +30,7 @@ Communicator\_ShowQuestMsg
 -   **idMsg** **(Integer)** - The id number for the message.
 -   **idCreature** **(Integer)** - The id number for the NPC that sent
     the communicator message.
--   **queShown** **([Quest](../Classes/Quest.html))** - The quest that
+-   **queShown** **([Quest](../Classes/Quest.md))** - The quest that
     the message will offer the player.
 -   **strText** **(String)** - The quest text that the message will
     show.
@@ -118,7 +113,7 @@ specified quest.
 
 ### Params
 
--   **queCalling** **([Quest](../Classes/Quest.html))** - The quest that
+-   **queCalling** **([Quest](../Classes/Quest.md))** - The quest that
     the player is trying to accept or turn in via the communicator.
 
 ------------------------------------------------------------------------
@@ -153,7 +148,7 @@ communicator message that is tied to a quest.
 
 ### Params
 
--   **queSource** **([Quest](../Classes/Quest.html))** - The quest that
+-   **queSource** **([Quest](../Classes/Quest.md))** - The quest that
     the communicator message is tied to.
 
 ### Return Value
@@ -222,7 +217,7 @@ message.
 
 ### Return Value
 
--   **[PathMission](../Classes/PathMission.html)** - The Path Mission
+-   **[PathMission](../Classes/PathMission.md)** - The Path Mission
     that is unlocked for the player via the communicator message with
     the specified id.
 

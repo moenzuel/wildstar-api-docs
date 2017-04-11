@@ -1,12 +1,7 @@
 GridWindow
 ==========
 
-### Parent: [Window](../WindowControls/Window.html)
-
-Table of Content
----------------- 
-
-<!-- toc -->
+### Parent: [Window](../WindowControls/Window.md)
 
 ------------------------------------------------------------------------
 
@@ -17,9 +12,9 @@ GridDoubleClick
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **iRow** **(Integer)**
 -   **iCol** **(Integer)**
@@ -33,9 +28,9 @@ GridSelChange
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **iRow** **(Integer)**
 -   **iCol** **(Integer)**
@@ -49,9 +44,9 @@ GridSelChanging
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **iRow** **(Integer)**
 -   **iCol** **(Integer)**
@@ -68,9 +63,9 @@ GridSort
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **iCol** **(Integer)**
 
@@ -83,9 +78,9 @@ QueryBeginClickStick
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -97,9 +92,9 @@ QueryBeginDragDrop
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------

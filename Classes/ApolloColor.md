@@ -11,11 +11,6 @@ section of Houston's color chooser. Addon developers can also create
 their own ApolloColors using a string with the color's ARGB values in
 hex format.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`
@@ -67,7 +62,7 @@ Sets a named ApolloColor to the value of a CColor.
 
 -   **strColorName** **(String)** - The name of the ApolloColor that is
     being updated.
--   **crUpdatedValues** **([CColor](../Classes/CColor.html))** - The
+-   **crUpdatedValues** **([CColor](../Classes/CColor.md))** - The
     CColor that the ApolloColor is being updated to.
 
 ### Return Value
@@ -88,7 +83,7 @@ Checks if two ApolloColors are the same.
 
 ### Params
 
--   **crChecking** **([ApolloColor](../Classes/ApolloColor.html))** - The
+-   **crChecking** **([ApolloColor](../Classes/ApolloColor.md))** - The
     ApolloColor that the function will check against.
 
 ### Return Value
@@ -158,7 +153,7 @@ Checks if two ApolloColors share the same color.
 
 ### Params
 
--   **crChecking** **([ApolloColor](../Classes/ApolloColor.html))** - The
+-   **crChecking** **([ApolloColor](../Classes/ApolloColor.md))** - The
     ApolloColor that we are checking against.
 
 ### Return Value

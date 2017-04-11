@@ -1,12 +1,7 @@
 TabWindow
 =========
 
-### Parent: [Window](../WindowControls/Window.html)
-
-Table of Content
----------------- 
-
-<!-- toc -->
+### Parent: [Window](../WindowControls/Window.md)
 
 ------------------------------------------------------------------------
 
@@ -21,7 +16,7 @@ Attachs pAttachee to the caller and sets bStayOnTop.
 
 ### Params
 
--   **pAttachee** **([TabWindow](../WindowControls/TabWindow.html))**
+-   **pAttachee** **([TabWindow](../WindowControls/TabWindow.md))**
 -   **bStayOnTop** **(Bool)**
 
 ------------------------------------------------------------------------

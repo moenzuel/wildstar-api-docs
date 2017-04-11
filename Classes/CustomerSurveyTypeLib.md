@@ -8,11 +8,6 @@ CustomerSurveyTypeLib
 Surveys that are sent out to players during betas and on the PTR. These
 are disabled in the live game.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Method`
@@ -27,7 +22,7 @@ Determines if two CustomerSurveys are the same.
 ### Params
 
 -   **svyCompare**
-    **([CustomerSurveyTypeLib](../Classes/CustomerSurveyTypeLib.html))** -
+    **([CustomerSurveyTypeLib](../Classes/CustomerSurveyTypeLib.md))** -
     The CustomerSurvey that is being compared to the one that called
     this function.
 

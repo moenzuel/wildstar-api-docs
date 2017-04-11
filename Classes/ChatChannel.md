@@ -7,11 +7,6 @@ ChatChannel (Deprecated)
 
 One of the channels that chat messages can be sent to.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`
@@ -46,7 +41,7 @@ this function.
 
 ### Params
 
--   **chanComparison** **([ChatChannel](../Classes/ChatChannel.html))** -
+-   **chanComparison** **([ChatChannel](../Classes/ChatChannel.md))** -
     The ChatChannel that will be compared to the one that called this
     function.
 
@@ -396,7 +391,7 @@ Attempts to send a string to all members of the ChatChannel.
     the ChatChannel.
 -   **strSenderName** **(String)** - The name of the player that sent
     the message. This value defaults to an empty string.
--   **unitSpeaker** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitSpeaker** **([Unit](../Classes/Unit.md))** - The unit that
     entered the message.
 -   **bTextBubble** **(Boolean)** - Whether a text bubble should be
     shown for this piece of text.

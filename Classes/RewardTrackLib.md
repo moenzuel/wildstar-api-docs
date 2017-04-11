@@ -1,11 +1,6 @@
 RewardTrackLib
 ==============
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Enum`
@@ -133,7 +128,7 @@ CodeEnumInputAction
 -   **ExplicitMouseLook**
 -   **ToggleWeapons**
 -   **LeftMouseHold**
--   **Ri.htmlouseHold**
+-   **Ri.mdouseHold**
 -   **CenterMouseHold**
 -   **CastInnateAbility**
 -   **MarkingMenuLeftClick**
